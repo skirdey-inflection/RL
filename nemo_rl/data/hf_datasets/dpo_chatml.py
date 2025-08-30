@@ -74,8 +74,8 @@ class DPOChatMLDataset:
     }
 
     Args:
-        train_data_path (Union[str, list[str]]): Path(s) to the JSON file(s) containing training data
-        val_data_path (Union[str, list[str]]): Path(s) to the JSON file(s) containing validation data
+        train_data_path (Union[str, list[str]]): Path(s) to the JSON(L) file(s) containing training data
+        val_data_path (Union[str, list[str]]): Path(s) to the JSON(L) file(s) containing validation data
 
     """
 
