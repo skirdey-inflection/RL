@@ -124,6 +124,6 @@ def export_model_from_megatron(
         bridge.save_hf_pretrained(megatron_model, output_path)
 
     # resetting mcore state
-    import megatron.core.rerun_state_machinec
+    import megatron.core.rerun_state_machine
 
     megatron.core.rerun_state_machine.destroy_rerun_state_machine()
